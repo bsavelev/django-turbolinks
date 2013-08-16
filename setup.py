@@ -21,6 +21,8 @@ setup(
     author_email='dmitry.gladkov@gmail.com',
     url='https://github.com/dgladkov/django-turbolinks',
     packages=['turbolinks'],
+    zip_safe=False,
+    include_package_data = True,
     license='MIT',
     classifiers=(
         # 'Development Status :: 5 - Production/Stable',
